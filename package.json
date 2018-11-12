@@ -1,0 +1,52 @@
+{
+  "name": "vue-inline-styled",
+  "version": "0.0.1",
+  "description": "Writing inline CSS style in Vue component with ease.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "dev": "poi dev",
+    "prebuild": "rimraf dist/*",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gluons/vue-inline-styled.git"
+  },
+  "keywords": [
+    "vue",
+    "vue-library",
+    "css",
+    "inline",
+    "style",
+    "styled"
+  ],
+  "author": "Saran Tanpituckpong <sarunta@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gluons/vue-inline-styled/issues"
+  },
+  "homepage": "https://github.com/gluons/vue-inline-styled",
+  "dependencies": {
+    "style-to-object": "^0.2.2"
+  },
+  "devDependencies": {
+    "@gluons/prettier-config": "^2.0.0",
+    "@poi/plugin-ts-check": "next",
+    "@types/node": "6",
+    "poi": "next",
+    "prettier": "^1.15.2",
+    "rimraf": "^2.6.2",
+    "tslint": "^5.11.0",
+    "tslint-config-gluons": "^2.0.3",
+    "typescript": "^3.1.6",
+    "vue": "^2.5.17",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "peerDependencies": {
+    "vue": "2"
+  }
+}
