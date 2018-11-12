@@ -10,7 +10,8 @@
     "dev": "poi dev",
     "prebuild": "rimraf dist/*",
     "build": "tsc",
-    "test": "jest --verbose"
+    "lint": "tslint -p .",
+    "test": "npm run lint && jest --verbose"
   },
   "repository": {
     "type": "git",
