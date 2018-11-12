@@ -19,8 +19,9 @@
   "keywords": [
     "vue",
     "vue-library",
-    "css",
     "inline",
+    "inline-style",
+    "inline-css",
     "style",
     "styled"
   ],
