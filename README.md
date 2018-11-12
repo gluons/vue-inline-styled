@@ -2,6 +2,7 @@
 [![GitHub](https://img.shields.io/github/license/gluons/vue-inline-styled.svg?style=flat-square)](./LICENSE)
 [![npm](https://img.shields.io/npm/v/vue-inline-styled.svg?style=flat-square)](https://www.npmjs.com/package/vue-inline-styled)
 [![npm](https://img.shields.io/npm/dt/vue-inline-styled.svg?style=flat-square)](https://www.npmjs.com/package/vue-inline-styled)
+[![Codacy grade](https://img.shields.io/codacy/grade/72a6eb06815442548f7cfcbd71d278c4.svg?style=flat-square)](https://www.codacy.com/app/gluons/vue-inline-styled)
 [![Travis (.com)](https://img.shields.io/travis/com/gluons/vue-inline-styled.svg?style=flat-square)](https://travis-ci.com/gluons/vue-inline-styled)
 [![TSLint](https://img.shields.io/badge/TSLint-gluons-15757B.svg?style=flat-square)](https://github.com/gluons/tslint-config-gluons)
 
