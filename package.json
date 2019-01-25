@@ -42,7 +42,7 @@
     "@types/jest": "^23.3.9",
     "@types/node": "6",
     "@vue/test-utils": "^1.0.0-beta.25",
-    "jest": "^23.6.0",
+    "jest": "^24.0.0",
     "poi": "next",
     "prettier": "^1.15.2",
     "rimraf": "^2.6.2",
