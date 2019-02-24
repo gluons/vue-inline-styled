@@ -1,9 +1,9 @@
-const { defaults: tsjPreset } = require('ts-jest/presets');
+const { defaults } = require('jest-config');
 
 module.exports = {
-	moduleFileExtensions: [].concat(tsjPreset.moduleFileExtensions, ['vue']),
-	transform: Object.assign({}, tsjPreset.transform, {
-		'.*\\.(vue)$': 'vue-jest'
-	}),
-	testMatch: tsjPreset.testMatch
+	moduleFileExtensions: [...defaults.moduleFileExtensions, 'vue'],
+	transform: {
+		'^.+\\.ts$': 'babel-jest',
+		'^.+\\.vue$': 'vue-jest'
+	}
 };
