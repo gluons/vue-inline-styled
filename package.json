@@ -8,7 +8,7 @@
   },
   "scripts": {
     "prepublishOnly": "npm run build",
-    "dev": "poi dev",
+    "dev": "poi --serve",
     "prebuild": "rimraf dist/*",
     "build": "tsc",
     "lint": "tslint -p .",
@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "@gluons/prettier-config": "^2.0.0",
-    "@poi/plugin-ts-check": "next",
+    "@poi/plugin-typescript": "^12.0.1",
     "@types/jest": "^24.0.6",
     "@types/node": "6",
     "@vue/test-utils": "^1.0.0-beta.29",
