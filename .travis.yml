@@ -4,6 +4,3 @@ node_js:
   - "lts/*"
   - "lts/carbon"
   - "lts/boron"
-before_install:
-  - curl -o- -L https://yarnpkg.com/install.sh | bash
-  - export PATH="$HOME/.yarn/bin:$PATH"
