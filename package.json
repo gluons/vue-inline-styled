@@ -50,7 +50,7 @@
     "jest": "^24.1.0",
     "poi": "^12.5.5",
     "prettier": "^1.16.4",
-    "rimraf": "^2.6.3",
+    "rimraf": "^3.0.0",
     "tslint": "^5.13.0",
     "tslint-config-gluons": "^2.1.0",
     "typescript": "^3.3.3333",
