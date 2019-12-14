@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/gluons/vue-inline-styled",
   "dependencies": {
-    "style-to-object": "^0.2.2"
+    "style-to-object": "^0.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.3.3",
