@@ -46,7 +46,7 @@
     "@types/node": "14",
     "@vue/test-utils": "^1.0.0-beta.29",
     "babel-core": "^7.0.0-bridge.0",
-    "babel-jest": "^26.0.0",
+    "babel-jest": "^29.0.0",
     "jest": "^26.0.0",
     "poi": "^12.5.5",
     "prettier": "^2.0.0",
